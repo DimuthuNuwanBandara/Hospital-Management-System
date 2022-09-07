@@ -1,0 +1,37 @@
+.card
+{
+	overflow: hidden;
+}
+.cardBox .card .numbers
+{
+	position: relative;
+	z-index:1;
+}
+.cardBox .card .cardName
+{
+	position: relative;
+	z-index:1;
+}
+.cardBox .card .iconBox
+{
+	position: relative;
+	z-index:1;
+}
+.card::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    width:0;
+    height: 0;
+    border-radius: 50%;
+    background: #BBDFFA;
+    transition: width 0.5s, height 0.5s;
+}
+.card:hover::before
+{
+	width:350px;
+	height:350px;
+}

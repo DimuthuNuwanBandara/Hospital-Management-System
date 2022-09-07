@@ -1,0 +1,99 @@
+ body {
+        margin:0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+	.rep
+	{
+		position: relative;
+		margin: 0px;
+        height: 100%;
+         margin-left: 270px;
+         width:850px;
+         background-color: white;
+	}
+	.head
+{
+	background-color: #031DAEFF;
+	height: 100px;
+}
+	 
+  .head h2
+  {
+  	position: absolute;
+  	font-size: 40px;
+     padding-left: 50px;
+     color:white;
+  }
+.head button
+{
+  float:right;
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 0px;
+}
+.head h4
+{
+	position: relative;
+	float:right;
+  color:white;
+  padding-top: 50px;
+}
+.strip
+{
+	height: 2px;
+	margin-top: 2.5px;
+	background-color: #031DAEFF;
+}
+aside {
+  width: 50%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+}
+.asid{
+	position: relative;
+  width: 50%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic; 
+}
+.addr p{
+    margin-left: 10px;
+}
+.icon 
+{
+	color:#031DAEFF;
+	font-size: 30px;
+}
+.strip1{
+	height: 2px;
+	margin-top: 75px;
+	background-color: lightgrey;
+}
+.strip2{
+	height: 2px;
+	margin-top: 2px;
+	background-color: lightgrey;
+}
+.pdetail
+{
+	text-align: center;
+}
+.presc{
+	margin-left: 25px;
+	height: 200px;
+	width:800px;
+    border: 2px solid lightgrey;
+}
+.footer
+{
+	height: 46px;
+	margin-top: 2px;
+	background-color: #031DAEFF;
+}
+.presc p{
+  padding-left: 15px;
+}

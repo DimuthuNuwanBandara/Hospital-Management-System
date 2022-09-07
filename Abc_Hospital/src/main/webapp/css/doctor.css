@@ -1,0 +1,64 @@
+ body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 15px;
+    background: #e2e2e2;
+    font-weight: bold;
+    border-top-right-radius: 2rem;
+}
+.mytabs label:hover{
+	background: #009879;
+}
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+    box-shadow: 0 5px 5px #333;
+}
+.mytabs .tab h4 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+}
+
+/*---------------tabel decor--------------*/
+.content-table{
+    border-collapse: collapse;
+    margin:25px 0;
+    min-width: 900px;
+}
+.content-table thead tr {
+    background-color: #009879;
+    color:#fff;
+    text-align: left;
+}
+.content-table th,
+.content-table td{
+     padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom:2px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
